@@ -1,0 +1,11 @@
+Create an MDP. Remember to describe the states, actions and rewards. Make sure your three MDPs are different from each other.
+
+Let's consider a pong game to explain MDP. The states are positions of agent's board and pong ball. Actions can be moving right or left. Awards can be +10 for success and 0 for not success.
+
+Create an MDP. Remember to describe the states, actions and rewards. Make sure your three MDPs are different from each other.
+
+Consider Mario inside a grid environment where every other grid cell is either filled with wildfire, vacant, or a queen. Grid cells determine the states, which can be wildfire, blank, or queen. Mario must do actions such as moving up, down, left, and right in order to reach the objective state, which is the room with the queen. The prizes are -5 for hitting the flames, and the episode finishes there, but the awards are 0 for empty cells and +10 for getting the queen, and the show stops there as well.
+
+Create an MDP. Remember to describe the states, actions and rewards. Make sure your three MDPs are different from each other.
+
+Investment in a share is another example of MDP. The status refers to the quantity of money that the agent has. After investing, the payoff is either money received or money lost. The activities could include the amount of money the agent wishes to spend, which should be less than the amount of money the agent currently has. It could be written as a continuous or episodic assignment that terminates when the player reaches a specified amount of money or loses completely.
